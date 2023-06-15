@@ -1,0 +1,155 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.coaches{
+    width:100%;
+    padding:78px 0px;
+    background-color: #000000;
+}
+.coaches img{
+    height:auto;
+    width:420px;
+}
+
+.coach-text{
+    width: 550px;   
+}
+.main{
+   width: 1130px;
+   max-width: 95%;
+   margin:0 auto;
+   display:flex;/*The display property specifies the display behavior (the type of rendering box) of an element.*/ 
+   align-items: center;/*Container mai align karta hai*/
+   justify-content: space-around;/*justify content is used when elements donot occupy all the space in the container*/
+}
+.coach-text h1{
+    color:white;
+    font-size: 80px;
+    text-transform:capitalize;
+    margin-bottom: 20px; 
+}
+
+.coach-text h5{
+    color:white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color:#f9004d;
+}
+.coach-text p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+/* nav bar css start */
+nav{
+    height:10px;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    background-size:cover;
+    background-position:center;
+    /* padding-bottom: 1000px; */
+    float:inline-block;
+    position:absolute;
+    /* padding-left: 300px; */
+}
+
+   
+
+
+
+nav ul{
+    /* padding-left: 200px; */
+    padding-top: 20px;
+    padding-left: 250px;
+    /* padding:10px 20px;*/
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 20px;
+   
+    
+}
+nav ul li a{
+    color:rgba(rgb(255, 255, 255));
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+}
+
+nav ul li a:hover{
+    color:rgb(125, 74, 227);
+    transition: .1s;
+    transform: scale(1.2);
+}
+
+/* nav bar css end */
+
+/* footer css start */
+
+footer{
+    position:relative;
+    width: 100%;
+    height:400px;
+    background:#101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size:30px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+    font-size:15px;
+    color:white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p :end{
+    color:white;
+    font-size: 17px;
+    width:500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display:flex;
+}
+.social a{
+    width:45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50%;
+    margin:22px 10px;
+    color: #ffffff;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
